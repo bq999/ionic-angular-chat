@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Chatting Application
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+  <ion-item>
+    <ion-label floating>Name</ion-label>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
+  </ion-item>
+
+  	<button ion-button block outline (click)="loginUser()">Login</button>
+
+    <ion-title>
+      Created by Bilal Qaiser
+    </ion-title>
+</ion-content>
